@@ -1,0 +1,12 @@
+.icons-social {
+    position: absolute;
+    top: 50%;
+    display: grid;
+    transform: translateY(-50%);
+    gap: 1rem;
+    transition: color 1s;
+}
+
+.mood .icons-social {
+    color: #fff;
+}

@@ -1,0 +1,33 @@
+nav ul {
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 0 0 1rem;
+    list-style: none;
+    transition: color 300ms;
+    cursor: pointer;
+}
+
+nav ul li:hover {
+    color: #4361ee;
+    transition: color 1s;
+}
+
+nav ul .mood-item {
+    font-size: 1.5rem;
+}
+
+.mood {
+    background-color: #141a37;
+}
+
+.mood nav ul li {
+    color: #788cc1;
+}
+
+.mood .icons-social {
+    color: #fff;
+}

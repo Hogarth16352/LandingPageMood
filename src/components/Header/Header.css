@@ -1,0 +1,15 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+header h1 {
+    font-size: 24px;
+    transition: color 1s;
+}
+
+.mood header h1{
+    color: #788cc1;
+}
